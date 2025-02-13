@@ -1,4 +1,4 @@
-- First build
+- First build (Done)
 - Create Master Resume
 - Create tracking System
 - Enhance Prompt
