@@ -1,0 +1,9 @@
+- First build
+- Create Master Resume
+- Create tracking System
+- Enhance Prompt
+- Enhance Code
+    - Take user Input
+    - Store resume properly
+    - Name resume properly
+    - Add Cover Letter Feature
