@@ -1,5 +1,5 @@
 - First build (Done)
-- Create Master Resume
+- Create Master Resume (Done)
 - Create tracking System
 - Enhance Prompt
 - Enhance Code

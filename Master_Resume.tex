@@ -97,7 +97,7 @@
     \item
     \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -140,10 +140,12 @@
     \resumeSubheading
       {Vellore Institute of Technology}{Jul 2019 - Jun 2023}
       {Bachelor of Technology in Computer Science and Engineering}{Chennai, TN, India}
-
   
   \resumeSubHeadingListEnd
-\vspace{-15pt}
+  \vspace{0.2em}
+    \hspace{0.15in}\begin{tabular}{p{0.94\linewidth}}
+    \textit{{Coursework}: Machine Learning, Deep Learning, Computer Vision, Data Structures \& Algorithms, Software Design, Test Driven Development, Computer Architecture \& Organization Full Stack, Agile Methodology, Object Oriented Programming, Operating Systems, Information Security Database Management, DevOps, CI/CD.}
+\end{tabular}
 
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
@@ -151,35 +153,42 @@
 \begin{itemize}[leftmargin=0.15in, label={}]
 	\small{\item{
 		\textbf{Cloud Technologies}{: AWS EC2, AWS SageMaker, AWS Lambda, Docker, Jenkins, Kubernetes.} \\
-		\textbf{Languages}{: Python, Java, JavaScript, C, C++.} \\
+		\textbf{Languages}{: Python, Java, JavaScript, Matlab, Swift, Julia, Rust, C, C++.} \\
 		\textbf{Web Development}{: HTML, CSS, React, Node.js, Express.js, Flask.} \\
 		\textbf{Machine Learning}{: Scikit-learn, TensorFlow, PyTorch, LangChain.} \\
-		\textbf{Database Technologies}{: MySQL, PostgreSQL, MongoDB.}
-	}}
+		\textbf{Database Technologies}{: MySQL, PostgreSQL, MongoDB, Snowflake}\\
+            \textbf{System Designs}{: Distributed Systems, Object-Oriented Design, Scalability}}
+	}
 \end{itemize}
-\vspace{-18pt}
+\vspace{-15pt}
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-    {AI Developer (COOP)}{Jun 2024 -- Dec 2024}
-    {Mathtech, Inc}{}
+    {AI Intern}{Jun 2024 -- Dec 2024}
+    {Mathtech, Inc}{Hamilton, NJ}
     \resumeItemListStart
         \resumeItem{Developed, optimized and shipped a Retrieval-Augmented Generation (RAG) system, leveraging advanced natural language processing techniques for efficient document retrieval and knowledge generation.}
         \resumeItem{Utilized AWS services like SageMaker, EC2, and S3 for the system to ensure scalable and efficient deployment.}
         \resumeItem{Integrated AWS Cognito for secure user authentication and streamlined access management within the application.}
         \resumeItem{Developed a seamless pipeline for document storage, embedding generation, and vector search using SageMaker and Milvus hosted on EC2.}
+        \resumeItem{Enhanced chunk parsing techniques by dynamically adjusting chunk size and overlap based on document structure, significantly improving contextual understanding and retrieval efficiency.}
+        \resumeItem{Implemented chunk ranking using BERT-based models to score and prioritize document chunks, enhancing the relevance of retrieved information and ensuring better alignment with user queries.}
+
+        \resumeItem{Designed and fine-tuned custom embeddings using dense and sparse vector representations to achieve superior retrieval performance.}
     \resumeItemListEnd
-\vspace{-5pt}
     \resumeSubheading
     {Research Assistant}{Feb 2024 -- Present}
-    {Social-NLP Lab, CCI Drexel University}{}
+    {Social-NLP Lab, CCI Drexel University}{Philadelphia, PA}
     \resumeItemListStart
-        \resumeItem{Conducted in-depth research on substance abuse memes on Reddit under Prof. Shadi Rezapour, aiming to identify trends and insights that inform academic understanding.}
+        \resumeItem{Conducted in-depth research on substance abuse memes on Reddit under Prof. Rezvaneh (Shadi) Rezapour, aiming to identify trends and insights that inform academic understanding.}
         \resumeItem{Utilized state-of-the-art Large Language Models to analyze and interpret textual and visual elements, advancing the field of digital sociology.}
-    \resumeItemListEnd  
-  \resumeSubHeadingListEnd
-\vspace{-16pt}
+        \resumeItem{Worked on comparative analysis of LLaMA and GPT models, focusing on performance, efficiency, and application-specific strengths to derive actionable insights for research projects.}
+        \resumeItem{Implemented batch API methods for GPT-based inference, significantly improving processing efficiency for large-scale textual datasets.}
+        \resumeItem{Analyzed semantic understanding of discourse in drug-related memes, comparing them with non-drug meme communities and incorporating human evaluation to validate findings.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-15pt}
 
 
 %-----------PROJECTS-----------
@@ -189,36 +198,40 @@
     \resumeProjectHeading
     {\textbf{Disaster Risk Analytics Platform} $|$ \emph{Philly Codefest 2024, Chubb Challenge Winner}} {Apr 2024}
     \resumeItemListStart
-        \resumeItem{Developed and led a Climate Risk Analysis Platform, winning first place at Philly Codefest's Chubb Challenge. Applied Poisson’s distribution and deep learning for disaster risk and financial damage estimation.}
-        \resumeItem{Built and deployed a responsive Flask web application on AWS EC2, ensuring optimal performance and scalability.}
+        \resumeItem{Developed and led a Climate Risk Analysis Platform, winning first place at Philly Codefest's Chubb Challenge. Integrated Poisson’s distribution and deep learning models to assess disaster risk and predict financial damages with high precision.}
+        \resumeItem{Built a responsive Flask-based web application deployed on AWS EC2, utilizing AWS S3 for data storage and scalability to handle high user traffic during disaster events.}
+        \resumeItem{Incorporated real-time interactive map of United States for risk assessment.}
+        \resumeItem{Collaborated with a multidisciplinary team to enhance user experience.}
     \resumeItemListEnd
-\vspace{-17pt}
-
     \resumeProjectHeading
     {\textbf{Image Captioning for Chest X-ray Image} $|$ \emph{Vellore Institute of Technology (Capstone Project)}} {Nov 2022 -- May 2023}
     \resumeItemListStart
-        \resumeItem{Developed Encoder-Decoder models using TensorFlow-Keras and integrated CNN architectures (Xception, VGG16, ResNet) for disease classification and automated chest X-ray captioning.}
-        \resumeItem{Achieved 86.4\% accuracy in disease identification, significantly improving diagnostic efficiency and clarity of radiographic reports.}
+        \resumeItem{Developed Encoder-Decoder models using TensorFlow-Keras, incorporating CNN architectures such as Xception, VGG16, and ResNet for accurate disease classification and automated captioning of chest X-ray images.}
+        \resumeItem{Implemented Long Short-Term Memory (LSTM) networks for text generation, achieving seamless integration of visual and textual data.}
+        \resumeItem{Improved diagnostic efficiency with 86.4\% accuracy in disease identification, significantly improving diagnostic efficiency and reducing error rates in radiographic reports.}
     \resumeItemListEnd
-
-\vspace{-17pt}
-
+    \resumeProjectHeading
+    {\textbf{Superhero Image generation Using Generative Adversarial Network} $|$ \emph{Vellore Institute of Technology}} {Jul 2022}
+    \resumeItemListStart
+        \resumeItem{Designed new superhero characters by leveraging StyleGAN to generate a diverse range of creative images, starting from a curated dataset of 150 existing superheroes.}
+        \resumeItem{Implemented data preprocessing pipelines to clean, resize, and augment the dataset, ensuring optimal input for the StyleGAN model.}
+    \resumeItemListEnd
     \resumeProjectHeading
     {\textbf{REppeaR (Real Estate Transaction Website)} $|$ \emph{Vellore Institute of Technology}} {Mar 2022 -- Jun 2022}
     \resumeItemListStart
-        \resumeItem{Developed "REppeaR," a blockchain-based real estate transaction website utilizing NodeJS, EJS, JavaScript, HTML, CSS, and MongoDB; featured a JavaScript-based blockchain network for secure data transactions with distinct Admin and User roles.}
-        \resumeItem{Enhanced data security and user privacy through advanced hashing functions and blockchain integrity features, including admin authorization to fortify data quality.}
+        \resumeItem{Developed "REppeaR," a blockchain-based real estate transaction website using NodeJS, EJS, JavaScript, HTML, CSS, and MongoDB. The system featured a JavaScript-based blockchain network for secure and transparent data transactions.}
+        \resumeItem{Incorporated multi-user access system design (Admin and User) with robust authorization mechanisms to maintain data integrity and ensure secure transactions.}
+        \resumeItem{Enhanced security through cryptographic hashing for user data and implemented a digital signature verification mechanism to validate transactions.}
+        \resumeItem{Provided real-time transaction tracking and history, improving transparency in property dealings.}
     \resumeItemListEnd
-\vspace{-17pt}
-
     \resumeProjectHeading
     {\textbf{Question Answering System using BERT} $|$ \emph{Vellore Institute of Technology}} {Feb 2022 -- Apr 2022}
     \resumeItemListStart
-        \resumeItem{Designed, implemented, and tested a question-answering system powered by BERT, utilizing the CoQA dataset for training and evaluating its adaptability in diverse linguistic contexts.}
-        \resumeItem{Utilized the cosine similarity metric on test data, achieving an accuracy of 84.1\% and fine-tuning the system for optimal performance.}
+        \resumeItem{Developed a question-answering system powered by BERT, trained on the CoQA dataset, and fine-tuned for contextual adaptability across diverse linguistic scenarios.}
+        \resumeItem{Integrated pre-processing techniques like tokenization, padding, and truncation for efficient model training and inference.}
+        \resumeItem{Achieved an accuracy of 84.1\% using cosine similarity for evaluation.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
-\vspace{-15pt} % Adjust the final spacing at the end of the section
 
 
 %-----------Activities-----------
@@ -235,17 +248,29 @@
         \hfill \textbf{Aug. 2021 -- Jul 2023} 
     
 \end{tabular}
-\vspace{-23pt}
+\vspace{-15pt}
 
 %-----------CERTIFICATION-----------%
 \section{Certifications}
 \begin{tabular}{p{0.99\linewidth}}
     \hspace{0.15in}\textbf{PostgreSQL for Everybody}, University of Michigan
         \hfill \textbf{Feb. 2024} \\
-    \hspace{0.15in}\textbf{Microsoft Azure Fundamentals}, Microsoft
-        \hfill \textbf{May. 2022}\\
+    \hspace{0.15in}\textbf{Data Visualization with Tableau}, UC Davis (Coursera)
+        \hfill \textbf{Feb. 2023} \\
+    \hspace{0.15in}\textbf{REACT SUMMIT}, GitNation
+        \hfill \textbf{Jun. 2022} \\
+    \hspace{0.15in}\textbf{Microsoft Azure Fundamentals (AZ-900)}, Microsoft
+        \hfill \textbf{May. 2022} \\
+    \hspace{0.15in}\textbf{Google Data Analytics Professional Certification}, Google (Coursera)
+        \hfill \textbf{Jan. 2022} \\
+    \hspace{0.15in}\textbf{The Complete 2022 Web Development Bootcamp}, Udemy
+        \hfill \textbf{Sep. 2021} \\
+    \hspace{0.15in}\textbf{AI for Everybody}, Deeplearning.ai (Coursera)
+        \hfill \textbf{Aug. 2021} \\
+    \hspace{0.15in}\textbf{Fundamentals of Data Analytics}, Nasscom FutureSkills Prime
+        \hfill \textbf{Aug. 2021} \\
+    \hspace{0.15in}\textbf{Machine Learning A-Z: Hands-On Python and R In Data Science}, Udemy
+        \hfill \textbf{Aug. 2021} \\
 \end{tabular}
-
-
 
 \end{document}

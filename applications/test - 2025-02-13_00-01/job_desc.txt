@@ -1,0 +1,31 @@
+gCS Prescient Design is seeking a promising Machine Learning Engineer to develop our LLM and foundation model products to enable the next generation of machine learning for scientific discovery. The ideal candidate should have knowledge in ML and engineering with a proven record of a deep passion in ML, and be able to learn and grow within an innovative and collaborative team. No knowledge in biology is required, but interest would be greatly appreciated. 
+
+The group provides a dynamic and challenging environment for multidisciplinary research including access to heterogeneous data sources, close links to top academic institutions around the world, as well as collaborations with internal Genentech and Roche teams. 
+
+In this role, you will:
+
+Participate in cutting-edge research and development in LLMs for various internal applications including biomedical and drug discovery use cases.
+
+Develop LLMs and relevant applications including model deployment and any relevant backend/frontend engineering; as well as data engineering, evaluation, training, and finetuning, working closely with other engineers to ensure scalability and reliability
+
+Solve core ML and engineering challenges including the design, implementation, and scaling of our data, training, and deployment pipeline
+
+Collaborate closely with cross-functional teams across both Prescient Design and Roche to solve complex problems in the life sciences
+
+Who you are
+
+You have an MS/BS in Computer Science, Statistics, related field, or equivalent experience and 2+ years of industry experience in machine learning; or a PhD in Computer Science and related field and 0+ years of industry experience. 
+
+You have demonstrated success in technical capabilities deploying machine learning models in production environments or in ML/LLM research; or at least, immense interest in learning these areas with the required technical background knowledge
+
+You have strong programming skills in Python
+
+You have extensive interests and experience with deep learning / LLMs
+
+A dynamic and resilient individual who excels in a rapidly evolving environment, taking initiative on projects and continuously learning and adapting to new challenges and opportunities.
+
+A collaborative and open-minded team player who values constructive feedback and fosters a positive and respectful team environment.
+
+Great communication skills, with the ability to effectively communicate technical concepts to both technical and non-technical audiences as well as interfacing with scientific and engineering leadership
+
+A passion for solving complex technical problems and a commitment to staying up-to-date with the latest developments in machine learning
