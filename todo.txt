@@ -2,8 +2,11 @@
 - Create Master Resume (Done)
 - Create tracking System
 - Enhance Prompt
+    - Personalize Prompt
+    - Ask to add Soft Skills
 - Enhance Code
     - Take user Input
     - Store resume properly
     - Name resume properly
     - Add Cover Letter Feature
+- Limit Resume to One Page

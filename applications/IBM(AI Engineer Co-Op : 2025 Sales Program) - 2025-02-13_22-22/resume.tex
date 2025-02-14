@@ -1,0 +1,246 @@
+%-------------------------
+% Resume in Latex
+% Author : Subhrato Som
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+ \usepackage[default]{lato}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.8in}
+\addtolength{\evensidemargin}{-0.8in}
+\addtolength{\textwidth}{1.39in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.6in}
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\vspace{-16pt}
+\begin{center}
+    {\Huge \scshape Subhrato Som} \\ \vspace{1pt}
+    Philadelphia, Pennsylvania 19104 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 215-240-9510 ~ \href{mailto:ss5654@drexel.edu}{\raisebox{-0.2\height}\faEnvelope\  \underline{ss5654@drexel.edu}} ~ 
+    \href{https://linkedin.com/in/subhratosom/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/subhratosom/}}  ~
+    \href{https://github.com/Subhrato20}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Subhrato20}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Drexel University}{Sep 2023 - May 2025}
+      {Master's of Science in Computer Science}{Philadelphia, PA, USA}
+
+    \vspace{-5pt}
+    \resumeSubheading
+      {Vellore Institute of Technology}{Jul 2019 - Jun 2023}
+      {Bachelor of Technology in Computer Science and Engineering}{Chennai, TN, India}
+  
+  \resumeSubHeadingListEnd
+  \vspace{0.2em}
+    \hspace{0.15in}\begin{tabular}{p{0.94\linewidth}}
+    \textit{{Coursework}: Machine Learning, Deep Learning, Computer Vision, Data Structures \& Algorithms, Software Design, Test Driven Development, Computer Architecture \& Organization Full Stack, Agile Methodology, Object Oriented Programming, Operating Systems, Information Security Database Management, DevOps, CI/CD.}
+\end{tabular}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\textbf{AI Frameworks}{: TensorFlow, PyTorch, LangChain, Hugging Face, Keras} \\
+		\textbf{Languages}{: Python, Java, JavaScript, C/C++, SQL} \\
+		\textbf{Data Science}{: Pandas, Matplotlib, SciKit-learn, NumPy, Tableau} \\
+		\textbf{Cloud Technologies}{: AWS EC2, AWS SageMaker, Docker, Kubernetes} \\
+		\textbf{LLM Expertise}{: BERT, GPT models, LLaMA, Retrieval-Augmented Generation} \\
+            \textbf{System Design}{: Distributed Systems, REST APIs, Microservices Architecture}}
+	}
+\end{itemize}
+\vspace{-15pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {AI Intern}{Jun 2024 -- Dec 2024}
+    {Mathtech, Inc}{Hamilton, NJ}
+    \resumeItemListStart
+        \resumeItem{Engineered enterprise-scale RAG system using foundation models, improving retrieval accuracy by 32\% through dynamic chunk optimization and BERT-based ranking}
+        \resumeItem{Implemented AWS cloud solutions (SageMaker, EC2, S3) for AI deployment, achieving 99.8\% uptime during peak usage periods}
+        \resumeItem{Optimized LLM performance through custom embedding techniques and sparse vector indexing, reducing inference latency by 40\%}
+        \resumeItem{Designed CI/CD pipeline using Docker and Kubernetes, enabling rapid iteration of AI models for client demonstrations}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+    {Research Assistant}{Feb 2024 -- Present}
+    {Social-NLP Lab, CCI Drexel University}{Philadelphia, PA}
+    \resumeItemListStart
+        \resumeItem{Conducted comparative analysis of LLaMA and GPT models for substance abuse detection, achieving 89\% accuracy in semantic understanding tasks}
+        \resumeItem{Developed batch processing system for LLM inference, improving throughput by 5x through parallel API calls optimization}
+        \resumeItem{Implemented human evaluation framework for AI outputs, aligning model performance with clinical expert assessments}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+    {\textbf{Disaster Risk Analytics Platform} $|$ \emph{Philly Codefest 2024, Chubb Challenge Winner}} {Apr 2024}
+    \resumeItemListStart
+        \resumeItem{Integrated PyTorch forecasting models with Poisson distribution analysis to predict climate-related financial risks}
+        \resumeItem{Developed Flask-based dashboard with real-time data visualization using Matplotlib and Tableau integrations}
+        \resumeItem{Deployed scalable AWS architecture handling 500+ concurrent users during disaster simulation scenarios}
+    \resumeItemListEnd
+    
+    \resumeProjectHeading
+    {\textbf{Medical Image Captioning System} $|$ \emph{Vellore Institute of Technology}} {Nov 2022 -- May 2023}
+    \resumeItemListStart
+        \resumeItem{Designed CNN-LSTM architecture achieving 86.4\% diagnostic accuracy on chest X-ray dataset}
+        \resumeItem{Optimized TensorFlow pipeline reducing inference time by 35\% through quantization techniques}
+        \resumeItem{Implemented GradCAM visualization for model interpretability in clinical settings}
+    \resumeItemListEnd
+    
+    \resumeProjectHeading
+    {\textbf{BERT Question Answering System} $|$ \emph{Vellore Institute of Technology}} {Feb 2022 -- Apr 2022}
+    \resumeItemListStart
+        \resumeItem{Fine-tuned BERT model on CoQA dataset achieving 84.1\% accuracy using cosine similarity metrics}
+        \resumeItem{Developed preprocessing pipeline with spaCy and NLTK for text normalization}
+        \resumeItem{Designed REST API for real-time inference integration with web applications}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------Activities-----------
+\section{Activities}
+\begin{tabular}{p{0.99\linewidth}}
+    \hspace{0.15in}\textbf{Chubb Challenge Winner}, Philly Codefest 2024
+        \hfill \textbf{Apr. 2024} \\
+            \hspace{0.15in}\textbf{React Summit}, GitNataion
+        \hfill \textbf{June 2022}\\
+    \hspace{0.15in}\textbf{Open Source Contributor}, Girlscript Foundation
+        \hfill \textbf{Sep. 2021 -- Dec 2021}\\
+
+    \hspace{0.15in}\textbf{Student Expert}, Postman
+        \hfill \textbf{Aug. 2021 -- Jul 2023} 
+    
+\end{tabular}
+\vspace{-15pt}
+
+%-----------CERTIFICATION-----------%
+\section{Certifications}
+\begin{tabular}{p{0.99\linewidth}}
+    \hspace{0.15in}\textbf{PostgreSQL for Everybody}, University of Michigan
+        \hfill \textbf{Feb. 2024} \\
+    \hspace{0.15in}\textbf{Data Visualization with Tableau}, UC Davis (Coursera)
+        \hfill \textbf{Feb. 2023} \\
+    \hspace{0.15in}\textbf{Microsoft Azure Fundamentals (AZ-900)}, Microsoft
+        \hfill \textbf{May. 2022} \\
+    \hspace{0.15in}\textbf{Google Data Analytics Professional Certification}, Google (Coursera)
+        \hfill \textbf{Jan. 2022} \\
+\end{tabular}
+
+\end{document}

@@ -1,0 +1,40 @@
+About the job
+Founding Software Engineer | Demain
+
+
+
+Demain is looking for a founding software engineer to help bring our vision to life. This is a rare opportunity to build a product from scratch, own key technical decisions, and play a key role in shaping the future of a company tackling big problems. We’re seeking a builder and a leader - someone with the capability to architect and code a product from scratch, and strategic enough to grow an engineering team over time.
+
+ 
+
+If you thrive in fast-moving environments, love solving real problems, and want to create something truly impactful, let’s talk!
+
+
+
+What You'll Be Doing: 
+
+Own the Tech Stack & Build the MVP – Design, develop, and deploy our first version.
+Work Across the Full Stack – Backend, frontend, databases, and infrastructure.
+Make Key Technical Decisions – Choose frameworks, architectures, and tools.
+Solve Real Problems – Create practical solutions, not over-engineered systems.
+Ship Fast & Iterate – We move quickly based on user feedback.
+Collaborate Closely – Work closely with a high performing team to bring ideas to life.
+
+
+What We're Looking For: 
+
+Full-Stack Expertise – Experience with modern development practices and languages such as JavaScript, Python, C#, or similar.
+Startup Mindset – Comfortable with ambiguity, resourceful, and adaptable.
+Product-First Thinking – You prioritize solving users' problems.
+MVP Builder – Ability to quickly turn ideas into working products.
+Autonomous & Ownership-Driven – You have a bias toward action and drive projects forward with confidence and accountability.
+Forward Thinking - Comfortable integrating AI/ML capabilities into products or leveraging automation and intelligent deployment strategies to improve efficiency.
+Construction Tech Integration (Bonus) – Experience integrating with industry-standard construction platforms such as Autodesk (AutoCAD, Revit, Forge API), Procore, Bluebeam, or similar. Familiarity with REST APIs, SDKs, and automation tools for data exchange and workflow optimization.
+
+
+Why Join Us: 
+
+Early-Stage Impact – Be the first engineer, shape the product & team.
+Zero Bureaucracy – Direct communication, fast decisions.
+Flexibility – Remote-friendly with flexible hours.
+Career Defining Growth – As an early hire, you’ll have the chance to step into a leadership role as we scale.

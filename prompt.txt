@@ -9,10 +9,11 @@ Identify the skills, experiences, and keywords that are most relevant to the rol
 2. Refactor the Resume:
 Select only the most relevant projects, experiences, and skills from the master resume that align with the job description. Feel free to reasonably bloat the part which seems important for that job opening.
 Expand on these sections to better match the job requirements, mix keywords and phrases from the job description to optimize for ATS.
-Be careful, the project impacts should be reasonable for a grad student.
-Keep atleast 2 experiences and 3 projects. You necessarily dont have to make up a new project to match JD, rather you can morph my similar project into it.
-Dont change anything in \section{Activities}
-For made up certificates (if needed), do not specify the university, rather just mention the source website like coursera, linkdin learning, microsoft learn etc.
+Be careful, the project impacts, it should be reasonable for a graduate student. It should not sound unrealistic and don't add stats that sounds like it is from MIT WizKids.
+For Projects don't make up quantity super high (like 1M+ users or 50K daily concurrent AIP requests etc) it does not sound like a University project then.
+Keep atleast 2 experiences and 3 projects and 2 to 3 Certificates. You necessarily don't have to make up a new project to match JD, rather you can morph my similar project into it.
+Don't change anything in \section{Activities}
+Do not add made up certificates.
 
 3. Output Format:
 Return only the refactored resume in LaTeX format as provided in Master resume (Do not add ``` or ---).

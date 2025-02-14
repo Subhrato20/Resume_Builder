@@ -1,0 +1,246 @@
+%-------------------------
+% Resume in Latex
+% Author : Subhrato Som
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+ \usepackage[default]{lato}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.8in}
+\addtolength{\evensidemargin}{-0.8in}
+\addtolength{\textwidth}{1.39in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.6in}
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\vspace{-16pt}
+\begin{center}
+    {\Huge \scshape Subhrato Som} \\ \vspace{1pt}
+    Philadelphia, Pennsylvania 19104 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 215-240-9510 ~ \href{mailto:ss5654@drexel.edu}{\raisebox{-0.2\height}\faEnvelope\  \underline{ss5654@drexel.edu}} ~ 
+    \href{https://linkedin.com/in/subhratosom/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/subhratosom/}}  ~
+    \href{https://github.com/Subhrato20}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Subhrato20}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Drexel University}{Sep 2023 - May 2025}
+      {Master's of Science in Computer Science}{Philadelphia, PA, USA}
+
+    \vspace{-5pt}
+    \resumeSubheading
+      {Vellore Institute of Technology}{Jul 2019 - Jun 2023}
+      {Bachelor of Technology in Computer Science and Engineering}{Chennai, TN, India}
+  
+  \resumeSubHeadingListEnd
+  \vspace{0.2em}
+    \hspace{0.15in}\begin{tabular}{p{0.94\linewidth}}
+    \textit{{Coursework}: Distributed Systems, Algorithm Design, Object-Oriented Programming, Database Management, Machine Learning, Software Engineering, Cloud Computing, Operating Systems, Computer Architecture}
+\end{tabular}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\textbf{Cloud Technologies}{: AWS EC2, S3, Lambda, SageMaker, Docker, Kubernetes} \\
+		\textbf{Languages}{: Python, Java, C++, JavaScript, SQL} \\
+		\textbf{Distributed Systems}{: Multi-tiered architectures, Scalable storage solutions, Fault-tolerant design} \\
+		\textbf{Database Systems}{: PostgreSQL, MySQL, MongoDB, Snowflake} \\
+		\textbf{Software Engineering}{: Agile Methodology, CI/CD, Test Driven Development, System Design} \\
+            \textbf{Optimization}{: Linear Programming, Algorithmic Efficiency, Performance Tuning}}
+	}
+\end{itemize}
+\vspace{-15pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {AI Intern}{Jun 2024 -- Dec 2024}
+    {Mathtech, Inc}{Hamilton, NJ}
+    \resumeItemListStart
+        \resumeItem{Designed and deployed scalable RAG system using AWS services (EC2, S3, SageMaker) handling 50k+ daily requests with 99.8\% uptime}
+        \resumeItem{Implemented distributed document processing pipeline using Python and Milvus vector database, reducing retrieval latency by 40\%}
+        \resumeItem{Optimized chunk ranking algorithms using BERT-based models and custom embeddings, improving retrieval relevance by 35\%}
+        \resumeItem{Architected secure authentication system with AWS Cognito supporting 10k+ concurrent users}
+        \resumeItem{Developed auto-scaling solutions using Kubernetes to handle variable workloads in cloud environment}
+    \resumeItemListEnd
+    \resumeSubheading
+    {Research Assistant}{Feb 2024 -- Present}
+    {Social-NLP Lab, CCI Drexel University}{Philadelphia, PA}
+    \resumeItemListStart
+        \resumeItem{Built distributed batch processing system for LLM inference, improving throughput by 60\% through parallelization techniques}
+        \resumeItem{Optimized NLP pipelines using Python and PyTorch, reducing processing time for 1M+ Reddit posts by 45\%}
+        \resumeItem{Designed comparative analysis framework for evaluating distributed ML systems (LLaMA vs GPT)}
+        \resumeItem{Implemented efficient data storage solutions using relational databases for structured research data}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+    {\textbf{Distributed Disaster Risk Platform} $|$ \emph{AWS, Python, Flask}} {Apr 2024}
+    \resumeItemListStart
+        \resumeItem{Architected fault-tolerant system processing 1M+ geospatial data points using AWS EC2 auto-scaling groups}
+        \resumeItem{Designed distributed storage layer with AWS S3 and PostgreSQL, achieving 150ms query response times}
+        \resumeItem{Implemented disaster prediction algorithms using Poisson distributions and ML models in Python}
+        \resumeItem{Led agile team of 5 developers using CI/CD pipelines for rapid feature deployment}
+    \resumeItemListEnd
+    \resumeProjectHeading
+    {\textbf{Blockchain Real Estate System} $|$ \emph{Node.js, MongoDB, JavaScript}} {Mar 2022 -- Jun 2022}
+    \resumeItemListStart
+        \resumeItem{Developed distributed blockchain network handling 500+ transactions/sec using cryptographic hashing}
+        \resumeItem{Designed relational database schema for property transactions with ACID compliance}
+        \resumeItem{Implemented role-based access control system supporting 1k+ concurrent users}
+        \resumeItem{Optimized query performance by 55\% through index optimization and query planning}
+    \resumeItemListEnd
+    \resumeProjectHeading
+    {\textbf{Medical Image Analysis System} $|$ \emph{TensorFlow, Python, SQL}} {Nov 2022 -- May 2023}
+    \resumeItemListStart
+        \resumeItem{Built distributed image processing pipeline using CNN architectures (ResNet, VGG16)}
+        \resumeItem{Optimized LSTM networks for report generation, reducing inference time by 30\%}
+        \resumeItem{Designed relational database for patient data management with HIPAA-compliant security}
+        \resumeItem{Implemented parallel processing techniques to handle 10k+ images daily}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------Activities-----------
+\section{Activities}
+\begin{tabular}{p{0.99\linewidth}}
+    \hspace{0.15in}\textbf{Chubb Challenge Winner}, Philly Codefest 2024
+        \hfill \textbf{Apr. 2024} \\
+            \hspace{0.15in}\textbf{React Summit}, GitNataion
+        \hfill \textbf{June 2022}\\
+    \hspace{0.15in}\textbf{Open Source Contributor}, Girlscript Foundation
+        \hfill \textbf{Sep. 2021 -- Dec 2021}\\
+
+    \hspace{0.15in}\textbf{Student Expert}, Postman
+        \hfill \textbf{Aug. 2021 -- Jul 2023} 
+    
+\end{tabular}
+\vspace{-15pt}
+
+%-----------CERTIFICATION-----------%
+\section{Certifications}
+\begin{tabular}{p{0.99\linewidth}}
+    \hspace{0.15in}\textbf{PostgreSQL for Everybody}, University of Michigan
+        \hfill \textbf{Feb. 2024} \\
+    \hspace{0.15in}\textbf{Microsoft Azure Fundamentals (AZ-900)}, Microsoft
+        \hfill \textbf{May. 2022} \\
+    \hspace{0.15in}\textbf{Google Data Analytics Professional Certification}, Google (Coursera)
+        \hfill \textbf{Jan. 2022} \\
+\end{tabular}
+
+\end{document}
