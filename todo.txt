@@ -6,7 +6,7 @@
     - Ask to add Soft Skills
 - Enhance Code
     - Take user Input
-    - Store resume properly
+    - Store resume properly (Done)
     - Name resume properly
     - Add Cover Letter Feature
 - Limit Resume to One Page

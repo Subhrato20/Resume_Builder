@@ -1,0 +1,34 @@
+Data Scientist
+
+Job Description
+We’re excited to see our product clicking with customers and now want to put our foot on the gas. Concretely, this means doing two things: making it faster to bring in and onboard new customers and executing on an ambitious product roadmap.
+
+Our ultimate vision is to literally be able to sell a revenue-printing machine to our customers (”plug this in and we’ll power & supercharge as much of your sales + marketing function as possible”) and we think we’re well-positioned to get there… but there’s a lot to build!
+
+To help us get there, we’re looking for exceptional engineers who are excited about digging in across:
+
+the product (working closely with users and customers and owning new product features that make the product significantly more valuable for customers end-to-end)
+the stack (some combination of product engineering, working with LLMs, and building infra to make this work reliably and at scale — we process tens of millions of rows of data daily, including thousands of emails, notes, and call transcripts with LLMs)
+the entire business (contributing to everything from engineering & product to figuring out and scaling the sales motion (”go-to-market” / GTM) — we’re excited about the rare kind of engineer who wants to deeply understand customers and apply those same problem-solving skills to “reverse-engineering” our own sales motion, and think this is what has enabled some of the fastest-growing companies in the world, including multiple of our own customers, to scale as quickly as they have)
+This is an extremely high-leverage, high-ownership role that touches the entire business — we firmly believe all problems are everyone’s problems here. If this excites you, we’d love to talk!
+
+Day in the Life
+This role is in-person in New York City.
+
+In a typical week, you’d probably:
+
+Talk to multiple users of our product at current customers, or new companies we’re piloting with, to see how they’re using it, what they need help with, and what we can build to make them more successful — we believe in being super hands-on, especially in this phase, to help our customers succeed (e.g., we onboard each sales rep 1:1, check-ins, fast feedback loops, etc.)
+Build a piece of the product you’re owning that will produce a step change in value for our customers, and work closely with users to test it out and iterate
+Help figure out what on the roadmap to prioritize next / what new features we can build out to solve issues users are facing or unlock more value
+Help with data onboarding / POC for a new customer, including potentially building out tools (many AI-powered!) to automate this work and make it easier & faster in the future
+Contribute to brainstorming on a top-of-mind GTM question (”what should the pre-sales process look like? what metrics should we anchor on? what kinds of customers should we disqualify earlier and how can we recognize them a priori?”)
+Who You Are
+The following are some attempts to define what the ideal candidate could look like for this role, but we’re excited to chat with you if you think you could be a a great fit regardless of how many of the items below you meet!
+
+Very strong engineering and/or ML background. You have great technical skills and interest or experience working with LLMs. You enjoy build things (especially from scratch) and are obsessive about what you’re building.
+High autonomy, ambitiousness, ownership. You’re pragmatic and love to ship quickly to deliver for customers; you’re excited about owning and leading major parts of the product and roadmap. You’re entrepreneurial and want to build a category-defining company.
+Excitement about being hands-on and iterating with customers. You’re a great communicator with blend of technical & product skills, and you love to talk to customers and users and make them happy! You’re very scrappy and willing to dig in where needed. You can figure out what customers want and drill that back into their underlying pain points. You have extreme attention to detail (especially for things that go in front of customers) and the ability to think from a user’s perspective
+High slope and desire / ability to “learn it all.” You’re curious, always want to learn, and know how you learn best; you’re able to pick up new skills (technical or non-technical) quickly and seek out the help you need.
+Stellar career trajectory & excited to take the next step in your path!
+Ideally: former founder and/or 2+ years of experience at a hyper-growth startup working very closely with customers (we call it “owning delivery”)
+ 

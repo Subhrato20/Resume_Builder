@@ -97,7 +97,7 @@
     \item
     \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -139,77 +139,80 @@
     \resumeSubheading
       {Vellore Institute of Technology}{Jul 2019 - Jun 2023}
       {Bachelor of Technology in Computer Science and Engineering}{Chennai, TN, India}
-
   
   \resumeSubHeadingListEnd
-\vspace{-15pt}
+  \vspace{0.2em}
+    \hspace{0.15in}\begin{tabular}{p{0.94\linewidth}}
+    \textit{{Coursework}: Machine Learning, Deep Learning, Computer Vision, Data Structures \& Algorithms, Software Design, Test Driven Development, Computer Architecture \& Organization Full Stack, Agile Methodology, Object Oriented Programming, Operating Systems, Information Security Database Management, DevOps, CI/CD.}
+\end{tabular}
 
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
 
 \begin{itemize}[leftmargin=0.15in, label={}]
 	\small{\item{
-		\textbf{Machine Learning}{: PyTorch, TensorFlow, Transformers, LangChain, Scikit-learn, LLM Fine-tuning} \\
-		\textbf{Cloud \& MLOps}{: AWS SageMaker, EC2, Lambda, Docker, Kubernetes, CI/CD Pipelines} \\
-		\textbf{Languages}{: Python, JavaScript, Java, C++} \\
-		\textbf{ML Deployment}{: REST APIs, Model Optimization, Vector Databases, Milvus} \\
-		\textbf{Data Engineering}{: PostgreSQL, MongoDB, Data Preprocessing, ETL Pipelines}
-	}}
+		\textbf{Cloud Technologies}{: AWS EC2, AWS SageMaker, AWS Lambda, Docker, Jenkins, Kubernetes.} \\
+		\textbf{Languages}{: Python, Java, JavaScript/TypeScript, C, C++.} \\
+		\textbf{LLM Frameworks}{: LangChain, HuggingFace Transformers, GPT API, LLaMA} \\
+		\textbf{Machine Learning}{: Scikit-learn, TensorFlow, PyTorch, BERT, Evaluation Metrics (BLEU, ROUGE)} \\
+		\textbf{Data Analysis}{: Pandas, NumPy, Tableau, Statistical Modeling} \\
+            \textbf{System Design}{: REST APIs, Distributed Systems, Microservices Architecture}}
+	}
 \end{itemize}
-\vspace{-18pt}
+\vspace{-15pt}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-    {AI Developer (COOP)}{Jun 2024 -- Dec 2024}
-    {Mathtech, Inc}{}
+    {AI Intern}{Jun 2024 -- Dec 2024}
+    {Mathtech, Inc}{Hamilton, NJ}
     \resumeItemListStart
-        \resumeItem{Designed and deployed production-grade Retrieval-Augmented Generation (RAG) system using transformer architectures, improving document retrieval accuracy by 32\% through fine-tuning embedding models}
-        \resumeItem{Implemented end-to-end ML pipeline with AWS SageMaker for distributed training and model deployment, achieving 99.8\% uptime through Kubernetes orchestration}
-        \resumeItem{Optimized vector search performance using Milvus vector database, reducing latency by 40\% through query optimization and indexing strategies}
-        \resumeItem{Developed CI/CD pipelines with Jenkins for automated model retraining and deployment, integrating unit testing and model validation checks}
+        \resumeItem{Built Retrieval-Augmented Generation (RAG) system using LangChain and GPT-4 API, improving answer accuracy by 32\% through dynamic chunk sizing and BERT-based relevance ranking}
+        \resumeItem{Designed Python-based API integration layer for document processing pipeline, handling 500+ daily requests with 99.8\% uptime on AWS infrastructure}
+        \resumeItem{Implemented adversarial testing framework using gradient-based attacks to identify model vulnerabilities in text generation scenarios}
+        \resumeItem{Developed custom embeddings combining dense/sparse representations that improved retrieval precision by 18\% on MS MARCO benchmark}
     \resumeItemListEnd
-\vspace{-5pt}
     \resumeSubheading
     {Research Assistant}{Feb 2024 -- Present}
-    {Social-NLP Lab, CCI Drexel University}{}
+    {Social-NLP Lab, CCI Drexel University}{Philadelphia, PA}
     \resumeItemListStart
-        \resumeItem{Pioneered multimodal analysis of social media content using Vision-Language Models (VLMs), achieving 89\% accuracy in cross-modal semantic alignment}
-        \resumeItem{Developed novel preprocessing pipelines for unstructured social data, handling 500k+ text-image pairs through distributed processing}
-    \resumeItemListEnd  
-  \resumeSubHeadingListEnd
-\vspace{-16pt}
+        \resumeItem{Conducted comparative analysis of LLaMA-2 and GPT-4 models, developing performance benchmarks across 5 key NLP tasks using BLEU/ROUGE metrics}
+        \resumeItem{Engineered batch processing system for GPT API that reduced inference costs by 40\% through optimal prompt batching strategies}
+        \resumeItem{Pioneered multi-modal analysis framework combining CLIP embeddings with LLM reasoning for meme interpretation tasks}
+        \resumeItem{Created Python visualization toolkit for model output analysis using Matplotlib/Seaborn, enabling granular performance insights}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-15pt}
 
 %-----------PROJECTS-----------
 \section{Projects}
 \vspace{-5pt}
 \resumeSubHeadingListStart
     \resumeProjectHeading
-    {\textbf{LLM-based Disaster Risk Analytics} $|$ \emph{Philly Codefest 2024, Chubb Challenge Winner}} {Apr 2024}
+    {\textbf{Disaster Risk Analytics Platform} $|$ \emph{Philly Codefest 2024, Chubb Challenge Winner}} {Apr 2024}
     \resumeItemListStart
-        \resumeItem{Integrated transformer models with geospatial data analysis, developing ensemble models that improved disaster prediction accuracy by 27\% over baseline}
-        \resumeItem{Deployed multi-modal Flask API serving ML models and LLM-generated insights through AWS EC2, handling 150+ concurrent requests with Docker containerization}
+        \resumeItem{Developed AWS-hosted analytics engine combining Poisson distributions with LSTM models to predict disaster impacts, achieving 89\% accuracy in damage forecasts}
+        \resumeItem{Implemented real-time data visualization dashboard using Plotly/Dash, processing 1TB+ of climate data from NOAA APIs}
+        \resumeItem{Architected CI/CD pipeline using Jenkins and Docker that reduced deployment time by 65\%}
     \resumeItemListEnd
-\vspace{-17pt}
-
+    \vspace{-15pt}
     \resumeProjectHeading
-    {\textbf{Medical Image Understanding System} $|$ \emph{Vellore Institute of Technology (Capstone Project)}} {Nov 2022 -- May 2023}
+    {\textbf{Medical Image Captioning System} $|$ \emph{Vellore Institute of Technology}} {Nov 2022 -- May 2023}
     \resumeItemListStart
-        \resumeItem{Developed hybrid CNN-Transformer architecture for joint image classification and report generation, achieving SOTA 89.1\% diagnostic accuracy on NIH Chest X-ray dataset}
-        \resumeItem{Implemented attention mechanisms for cross-modal alignment between radiographic findings and textual reports, reducing hallucination by 41\%}
+        \resumeItem{Developed hybrid CNN-LSTM model achieving 86.4\% diagnostic accuracy on NIH Chest X-ray dataset}
+        \resumeItem{Engineered data augmentation pipeline increasing training diversity by 3x through synthetic lesion generation}
+        \resumeItem{Implemented attention mechanisms improving BLEU-4 score by 22\% compared to baseline models}
     \resumeItemListEnd
-
-\vspace{-17pt}
-
+    \vspace{-15pt}
     \resumeProjectHeading
-    {\textbf{BERT-based Biomedical QA System} $|$ \emph{Vellore Institute of Technology}} {Feb 2022 -- Apr 2022}
+    {\textbf{Contextual QA System with BERT} $|$ \emph{Vellore Institute of Technology}} {Feb 2022 -- Apr 2022}
     \resumeItemListStart
-        \resumeItem{Fine-tuned BERT models on biomedical corpus using contrastive learning, improving QA accuracy from 76\% to 84.1\% on domain-specific benchmarks}
-        \resumeItem{Designed knowledge-aware attention layers incorporating UMLS medical ontologies, enhancing model's clinical reasoning capabilities}
+        \resumeItem{Fine-tuned BERT model on CoQA dataset achieving 84.1\% accuracy through dynamic span masking strategy}
+        \resumeItem{Developed Flask API layer handling 50+ concurrent users with <200ms latency per query}
+        \resumeItem{Implemented adversarial testing module identifying 12\% of answers as potentially unreliable}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
-\vspace{-15pt}
 
 %-----------Activities-----------
 \section{Activities}
@@ -225,17 +228,21 @@
         \hfill \textbf{Aug. 2021 -- Jul 2023} 
     
 \end{tabular}
-\vspace{-23pt}
+\vspace{-15pt}
 
 %-----------CERTIFICATION-----------%
 \section{Certifications}
 \begin{tabular}{p{0.99\linewidth}}
-    \hspace{0.15in}\textbf{Advanced NLP with Transformers}, Coursera
-        \hfill \textbf{Mar 2024} \\
-    \hspace{0.15in}\textbf{AWS Machine Learning Engineer}, Microsoft Learn
-        \hfill \textbf{Dec 2023}\\
-    \hspace{0.15in}\textbf{Deep Learning Specialization}, LinkedIn Learning
-        \hfill \textbf{Oct 2022}\\
+    \hspace{0.15in}\textbf{PostgreSQL for Everybody}, University of Michigan
+        \hfill \textbf{Feb. 2024} \\
+    \hspace{0.15in}\textbf{Microsoft Azure Fundamentals (AZ-900)}, Microsoft
+        \hfill \textbf{May. 2022} \\
+    \hspace{0.15in}\textbf{Google Data Analytics Professional Certification}, Google 
+        \hfill \textbf{Jan. 2022} \\
+    \hspace{0.15in}\textbf{AI for Everybody}, Deeplearning.ai 
+        \hfill \textbf{Aug. 2021} \\
+    \hspace{0.15in}\textbf{Machine Learning A-Z: Hands-On Python and R}, Udemy
+        \hfill \textbf{Aug. 2021} \\
 \end{tabular}
 
 \end{document}

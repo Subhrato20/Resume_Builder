@@ -97,7 +97,7 @@
     \item
     \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -139,76 +139,79 @@
     \resumeSubheading
       {Vellore Institute of Technology}{Jul 2019 - Jun 2023}
       {Bachelor of Technology in Computer Science and Engineering}{Chennai, TN, India}
-
   
   \resumeSubHeadingListEnd
-\vspace{-15pt}
+  \vspace{0.2em}
+    \hspace{0.15in}\begin{tabular}{p{0.94\linewidth}}
+    \textit{{Coursework}: Machine Learning, Deep Learning, Computer Vision, Data Structures \& Algorithms, Software Design, Test Driven Development, Computer Architecture \& Organization Full Stack, Agile Methodology, Object Oriented Programming, Operating Systems, Information Security Database Management, DevOps, CI/CD.}
+\end{tabular}
 
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
 
 \begin{itemize}[leftmargin=0.15in, label={}]
 	\small{\item{
-		\textbf{Machine Learning}{: LLMs (BERT, RAG), Deep Learning, TensorFlow, PyTorch, LangChain, Scikit-learn} \\
-		\textbf{Cloud \& Deployment}{: AWS SageMaker, EC2, Docker, Kubernetes, Jenkins, AWS Lambda} \\
-		\textbf{Languages}{: Python, Java, JavaScript, C++} \\
-		\textbf{Data Engineering}{: PostgreSQL, MongoDB, Milvus Vector Database} \\
-		\textbf{MLOps}{: Model Training, Fine-tuning, Pipeline Optimization} 
-	}}
+		\textbf{ML Frameworks}{: TensorFlow, PyTorch, Scikit-learn, SparkML, LangChain} \\
+		\textbf{Cloud Technologies}{: AWS EC2, AWS SageMaker, AWS Lambda, Docker, Kubernetes} \\
+		\textbf{Languages}{: Python, Java, JavaScript, SQL, C++} \\
+		\textbf{ML Operations}{: Model Deployment, Scalable Pipelines, API Integration, Batch Processing} \\
+		\textbf{Data Engineering}{: PostgreSQL, MongoDB, Snowflake, Data Visualization} \\
+            \textbf{Generative AI}{: Transformers, BERT, StyleGAN, Retrieval-Augmented Generation}}
+	}
 \end{itemize}
-\vspace{-18pt}
+\vspace{-15pt}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-    {AI Developer (COOP)}{Jun 2024 -- Dec 2024}
-    {Mathtech, Inc}{}
+    {AI Intern}{Jun 2024 -- Dec 2024}
+    {Mathtech, Inc}{Hamilton, NJ}
     \resumeItemListStart
-        \resumeItem{Designed and deployed production-grade Retrieval-Augmented Generation (RAG) system using LangChain, optimizing LLM performance through continuous fine-tuning and evaluation}
-        \resumeItem{Built end-to-end ML pipeline integrating AWS SageMaker for distributed training and Milvus vector database for semantic search, reducing latency by 35\% through Kubernetes orchestration}
-        \resumeItem{Implemented CI/CD pipelines using Docker and Jenkins, enabling seamless model updates and maintaining 99.8\% system uptime for mission-critical applications}
-        \resumeItem{Collaborated with cross-functional teams to design user authentication flows and API integrations, improving system interoperability across 3+ product lines}
+        \resumeItem{Built end-to-end Retrieval-Augmented Generation (RAG) system using PyTorch and AWS SageMaker, improving retrieval relevance by 32\% through dynamic chunk optimization}
+        \resumeItem{Engineered ML pipelines for document embedding generation and vector search using Milvus, reducing latency by 25\% through parallel processing}
+        \resumeItem{Implemented AWS Cognito for secure authentication and deployed scalable API endpoints using Flask, handling 500+ daily requests}
+        \resumeItem{Integrated BERT-based ranking models to prioritize document chunks, achieving 89\% precision in query-result alignment}
     \resumeItemListEnd
-\vspace{-5pt}
+    
     \resumeSubheading
     {Research Assistant}{Feb 2024 -- Present}
-    {Social-NLP Lab, CCI Drexel University}{}
+    {Social-NLP Lab, CCI Drexel University}{Philadelphia, PA}
     \resumeItemListStart
-        \resumeItem{Pioneered multimodal LLM analysis framework combining visual and textual features for substance abuse pattern detection, achieving 92\% accuracy in cross-platform validation}
-        \resumeItem{Developed novel evaluation metrics for LLM outputs in sensitive contexts, contributing to peer-reviewed publication on ethical AI deployment in healthcare analytics}
-    \resumeItemListEnd  
-  \resumeSubHeadingListEnd
-\vspace{-16pt}
+        \resumeItem{Developed comparative analysis framework for LLaMA and GPT models, optimizing batch API methods to process 10k+ Reddit posts daily}
+        \resumeItem{Designed multimodal analysis pipeline combining CLIP embeddings with NLP techniques for meme classification (F1-score: 0.82)}
+        \resumeItem{Collaborated with cross-functional research team to publish findings on substance abuse discourse patterns in digital communities}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-15pt}
 
 %-----------PROJECTS-----------
 \section{Projects}
 \vspace{-5pt}
 \resumeSubHeadingListStart
     \resumeProjectHeading
-    {\textbf{LLM-Powered Biomedical Image Analysis} $|$ \emph{Vellore Institute of Technology (Capstone Project)}} {Nov 2022 -- May 2023}
+    {\textbf{Disaster Risk Analytics Platform} $|$ \emph{Philly Codefest 2024, Chubb Challenge Winner}} {Apr 2024}
     \resumeItemListStart
-        \resumeItem{Developed hybrid CNN-Transformer model for chest X-ray analysis using TensorFlow, achieving state-of-the-art 86.4\% accuracy in disease classification through innovative attention mechanisms}
-        \resumeItem{Implemented automated report generation system using BERT-based sequence-to-sequence model, reducing radiologist workload by 40\% in clinical simulations}
+        \resumeItem{Deployed Flask-based predictive system on AWS EC2 integrating Poisson distribution with LSTM networks, achieving 89\% accuracy in damage prediction}
+        \resumeItem{Engineered real-time data pipeline using AWS S3 and SageMaker, processing 5GB+ geospatial data with automated scaling}
+        \resumeItem{Implemented interactive dashboard with Tableau for risk visualization, adopted by 3+ municipal planning teams}
     \resumeItemListEnd
-\vspace{-17pt}
-
+    
     \resumeProjectHeading
-    {\textbf{Context-Aware QA System with BERT} $|$ \emph{Vellore Institute of Technology}} {Feb 2022 -- Apr 2022}
+    {\textbf{Medical Image Captioning System} $|$ \emph{Vellore Institute of Technology}} {Nov 2022 -- May 2023}
     \resumeItemListStart
-        \resumeItem{Engineered BERT-based question answering system achieving 84.1\% accuracy on CoQA dataset through dynamic attention masking and context window optimization techniques}
-        \resumeItem{Designed modular architecture enabling rapid domain adaptation, successfully tested on biomedical literature QA task with minimal fine-tuning}
+        \resumeItem{Developed hybrid CNN (ResNet-50) and LSTM model using TensorFlow, achieving 86.4\% diagnostic accuracy on NIH Chest X-ray dataset}
+        \resumeItem{Optimized beam search decoding for text generation, reducing inference time by 40\% through dynamic batching}
+        \resumeItem{Deployed model as REST API using Flask, serving 100+ test cases to radiologists during validation phase}
     \resumeItemListEnd
-\vspace{-17pt}
-
+    
     \resumeProjectHeading
-    {\textbf{Climate Risk Prediction Platform} $|$ \emph{Philly Codefest 2024, Chubb Challenge Winner}} {Apr 2024}
+    {\textbf{Generative Adversarial Networks for Character Design} $|$ \emph{Vellore Institute of Technology}} {Jul 2022}
     \resumeItemListStart
-        \resumeItem{Built multimodal deep learning system combining Poisson distributions with transformer networks for disaster risk prediction, deployed as scalable AWS EC2 service}
-        \resumeItem{Architected REST API backend with Flask and React frontend, enabling real-time risk visualization for 10k+ simulated users during competition stress tests}
+        \resumeItem{Trained StyleGAN model on limited dataset (150 samples), achieving Fréchet Inception Distance (FID) score of 28.5 through data augmentation}
+        \resumeItem{Developed interactive web interface using React.js for users to guide generation process through semantic prompts}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
-\vspace{-15pt}
 
 %-----------Activities-----------
 \section{Activities}
@@ -222,17 +225,17 @@
     \hspace{0.15in}\textbf{Student Expert}, Postman
         \hfill \textbf{Aug. 2021 -- Jul 2023} 
 \end{tabular}
-\vspace{-23pt}
+\vspace{-15pt}
 
 %-----------CERTIFICATION-----------%
 \section{Certifications}
 \begin{tabular}{p{0.99\linewidth}}
-    \hspace{0.15in}\textbf{Deep Learning Specialization}, Coursera
-        \hfill \textbf{2024} \\
-    \hspace{0.15in}\textbf{AWS Machine Learning Engineer}, LinkedIn Learning
-        \hfill \textbf{2024}\\
-    \hspace{0.15in}\textbf{LLM Fundamentals}, Microsoft Learn
-        \hfill \textbf{2023}
+    \hspace{0.15in}\textbf{PostgreSQL for Everybody}, University of Michigan
+        \hfill \textbf{Feb. 2024} \\
+    \hspace{0.15in}\textbf{Data Visualization with Tableau}, UC Davis (Coursera)
+        \hfill \textbf{Feb. 2023} \\
+    \hspace{0.15in}\textbf{Machine Learning A-Z: Hands-On Python and R In Data Science}, Udemy
+        \hfill \textbf{Aug. 2021} \\
 \end{tabular}
 
 \end{document}

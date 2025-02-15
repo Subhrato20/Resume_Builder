@@ -31,25 +31,6 @@ def resume_prompt_builder(main_tex, base_prompt_text, job_desc_text):
     """
     return final_prompt
 
-
-def generate_pdf(latex_content):
-    print('generating PDF...')
-
-    tex_file = "resume.tex"
-    with open(tex_file, "w", encoding="utf-8") as f:
-        f.write(latex_content)
-
-    with open(os.devnull, 'w') as devnull:
-        subprocess.run(["pdflatex", tex_file], stdout=devnull, stderr=devnull, check=True)
-
-    for ext in [".log", ".aux", ".out"]:
-        aux_file = tex_file.replace(".tex", ext)
-        if os.path.exists(aux_file):
-            os.remove(aux_file)
-    
-    print('PDF generated.')
-
-
 def call_LLM(final_prompt: str):
     print('calling LLM...')
 
@@ -77,25 +58,45 @@ def call_LLM(final_prompt: str):
     return content.split("</think>")[1]
 
 
+
+
+def generate_pdf(latex_content, company_name):
+    print('generating PDF...')
+
+    pdf_filename = f"Subhrato_Som_Resume_2025_{company_name}.pdf"
+    tex_file = "resume.tex"
+    with open(tex_file, "w", encoding="utf-8") as f:
+        f.write(latex_content)
+
+    with open(os.devnull, 'w') as devnull:
+        subprocess.run(["pdflatex", tex_file], stdout=devnull, stderr=devnull, check=True)
+    
+    generated_pdf = tex_file.replace(".tex", ".pdf")
+    if os.path.exists(generated_pdf):
+        os.rename(generated_pdf, pdf_filename)
+
+    for ext in [".log", ".aux", ".out"]:
+        aux_file = tex_file.replace(".tex", ext)
+        if os.path.exists(aux_file):
+            os.remove(aux_file)
+    
+    print('PDF generated.')
+
 if __name__ == "__main__":
+    company_name = input("Enter Company Name: ")
+    job_role = input("Enter Job Role: ")
     prompt = resume_prompt_builder('Master_Resume.tex', 'prompt.txt', 'job_desc.txt')
-    # print(prompt)
     latex_styling = read_file('Master_Resume.tex').split("%%%%%%  RESUME STARTS HERE  %%%%%%")[0]
-    # generated_resume = read_file('main.tex').split("%%%%%%  RESUME STARTS HERE  %%%%%%")[1]
+    generate_resume = call_LLM(prompt)
 
-    # # typical token count 7778 in | 2793 out
-    generated_resume = call_LLM(prompt)
-    generate_pdf(latex_styling + generated_resume)
-
+    generate_pdf(latex_styling + generate_resume, company_name)
     applications_dir = "applications"
     os.makedirs(applications_dir, exist_ok=True)
 
-    company_job_role = input("Enter the company and job role: ")
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-
-    app_folder = os.path.join(applications_dir, f"{company_job_role} - {timestamp}")
+    app_folder = os.path.join(applications_dir, f"{company_name}_{job_role}_{timestamp}")
     os.makedirs(app_folder, exist_ok=True)
-
+    resume_name = f"Subhrato_Som_Resume_2025_{company_name}.tex"
     shutil.copy("job_desc.txt", os.path.join(app_folder, "job_desc.txt"))
-    shutil.move("resume.tex", os.path.join(app_folder, "resume.tex"))
+    shutil.move("resume.tex", os.path.join(app_folder, resume_name))
     print(f"Application saved in: {app_folder}")
